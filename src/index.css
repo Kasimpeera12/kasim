@@ -1,0 +1,95 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to top, #ff6a6a, #ffa3a3);
+
+}
+
+.login-box {
+  background-color: rgb(245, 246, 244);
+  padding: 20px 40px;
+  border-radius: 10px;
+  text-align: center;
+  width: 490px;
+  justify-content: center;
+} 
+.login-box-inner {
+  background-color: rgb(245, 246, 244);
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(2, 2, 0, 0.2);
+  text-align: center;
+  width: 400px;
+}
+
+.app-name {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.email-input {
+  border: none;
+  background-color: #f0f0f0;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+.password-container {
+  margin-bottom: 15px;
+}
+.password-label {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  float: left; /* Moves the text to the right */
+  margin-bottom: 5px; /* Adds some spacing below */
+}
+
+
+.password-input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+#link{
+  text-align: start;
+}
+.forgot-link,
+.email-link {
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+  margin: 3px 0;
+  
+}
+
+.signin-button {
+  background-color: #0008ff;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 40%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#gmail
+{
+  text-align: left;
+}
+#application{
+  color: #ccc;
+}
